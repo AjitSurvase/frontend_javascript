@@ -1,0 +1,112 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: rgb(195, 14, 14);
+}
+*{
+    font-size: 20px;
+}
+.abc{
+    color: blueviolet;
+}
+.abd{
+    color: brown;
+}
+#ele{
+    color: rgb(217, 15, 119);
+}
+
+[href]{
+     color: brown;
+}
+
+a:link{
+    color: #0dd50d;
+}
+
+
+/* #my-container{
+    border: 1px solid#cccccc;
+    border-radius: 10px 15px 10px 5px;
+    padding: 20px;
+} */
+
+
+.my-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.my-paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+body{
+    /* background-color: #ff0000; */     
+    /* background-color:rgb(233, 157, 157) ; */
+    /* background-color: rgba(255, 0, 255, 0.25); */
+    background-color: hsl(0, 100%, 50%);
+}
+
+
+.ajit{
+    font-weight: bolder;
+    /* text-transform: capitalize; */
+    font-variant: small-caps;
+    text-decoration: line-through;
+    letter-spacing: 2px;
+    line-height: 1.0em;
+    text-align: justify;
+
+}
+
+.ajit1{
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ul>li {
+
+    /* display: inline; */
+  display: inline-block;
+  width: 100px;
+}
+
+
+
+.left {
+      text-align: left;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+    .justify {
+      text-align: justify;
+    }
+
+
+    .my-image{
+        background-position: 20px 20px;
+        background-image: url('D:\Uss_frontend\tem.png');
+        background-size: 200px 100px;
+    }
+
+
+    #myelement{
+        display: block;
+    }
