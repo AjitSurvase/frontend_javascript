@@ -21,8 +21,6 @@ console.log("***********************");
 
 
 
-
-
 function bankAccount(balance) {
   return function withdraw(amount) {
     balance -= amount;
@@ -42,4 +40,5 @@ account(300); // 500
 
 // inner() keeps access to count
 
-// count is remembered → closure
+// count is remembered → closure   
+
